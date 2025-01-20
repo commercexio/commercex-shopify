@@ -9,8 +9,6 @@
 # Go artifacts
 *.out
 *.test
-*.mod
-*.sum
 vendor/
 
 # Shopify-specific files
