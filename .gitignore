@@ -1,0 +1,37 @@
+# Binaries
+/bin/
+/build/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go artifacts
+*.out
+*.test
+*.mod
+*.sum
+vendor/
+
+# Shopify-specific files
+shopify_config.yaml
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+.env
+.env.local
+
+# Other temporary files
+*.tmp
+*.bak
+*.old
